@@ -35,3 +35,17 @@ export class Rectangle {
         return (this.side1 == this.side2)
     }
 }
+
+export class Circle {
+    constructor(radius){
+        this.radius = radius;
+    }
+
+    area() {
+        return (this.radius**2 * Math.PI)
+    }
+
+    circumference() {
+        return (this.radius*2 * Math.PI)
+    }
+}
