@@ -16,3 +16,22 @@ export class Triangle {
         return (this.side1 + this.side2 + this.side3)
     }
 }
+
+export class Rectangle {
+    constructor(side1, side2) {
+        this.side1 = side1;
+        this.side2 = side2;
+    }
+
+    area() {
+        return (this.side1 * this.side2)
+    }
+
+    perimeter() {
+        return (this.side1*2 + this.side2*2)
+    }
+
+    isSquare () {
+        return (this.side1 == this.side2)
+    }
+}
